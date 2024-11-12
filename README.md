@@ -36,8 +36,8 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Bolazcoding/order-summary-card)
-- Live Site URL: [Live site URL](https://bolazcoding.github.io/order-summary-card/)
+- Solution URL: [Solution URL](https://github.com/Bolazcoding/four-card-feature)
+- Live Site URL: [Live site URL](https://bolazcoding.github.io/four-card-feature/)
 
 ## My process
 
