@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.header-small {
+  font-size: 2.4rem;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+}
+
+.header-big {
+  font-size: 2.4rem;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+.header-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: hsl(229, 6%, 66%);
+}
+
+.four-card-section {
+  max-width: 100rem;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "feature1 feature2 feature4" "feature1 feature3 feature4";
+  justify-items: center;
+  align-items: center;
+  margin-inline: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 2.5rem;
+  width: 100%;
+  box-shadow: 5px 0 10px hsl(229, 6%, 66%);
+  max-width: 35rem;
+}
+
+.grid--1 {
+  grid-area: feature1;
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.grid--2 {
+  grid-area: feature2;
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.grid--3 {
+  grid-area: feature3;
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.grid--4 {
+  grid-area: feature4;
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.feature-header {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.feature-text {
+  width: 100%;
+  font-size: 1.2rem;
+  color: hsl(229, 6%, 66%);
+  margin-top: 1rem;
+}
+
+.feature-image {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
+@media (max-width: 65.63em) {
+  html {
+    font-size: 50%;
+  }
+  .four-card-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "feature1 feature2" "feature3 feature4";
+  }
+}
+@media (max-width: 40em) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 30em) {
+  html {
+    font-size: 45%;
+  }
+  .four-card-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 23.8em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
